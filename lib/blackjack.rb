@@ -48,6 +48,7 @@ def hit?(current_total)
       end_game(new_total)
     else
       return new_total
+    end
   end
 end
 
