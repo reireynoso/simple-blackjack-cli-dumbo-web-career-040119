@@ -64,7 +64,7 @@ end
 def runner
   welcome
   int =initial_round
-  hit?()
+  hit?(int)
   
 end
 
