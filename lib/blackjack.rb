@@ -44,7 +44,10 @@ def hit?(current_total)
     return current_total
   elsif input == 'h'
     new_total = current_total + deal_card
-    return new_total
+    if new_total > 21
+      end_game(new_total)
+    else
+      return new_total
   end
 end
 
