@@ -46,6 +46,7 @@ def hit?(current_total)
     new_total = current_total + deal_card
     if new_total > 21
       end_game(new_total)
+      return "Your cards add up to #{new_total}"
     else
       return new_total
     end
