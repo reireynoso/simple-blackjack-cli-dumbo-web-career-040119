@@ -59,7 +59,7 @@ end
 
 def runner
   welcome
-  initial_round
+  int =initial_round
   hit?()
   
 end
